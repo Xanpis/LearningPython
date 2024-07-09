@@ -14,3 +14,5 @@ print("\n Name of the game = ",name, "\n Years of the game = ", yearLaunch,
 print(f"\n Name of the game = {name}\n Year of the game = {yearLaunch}\n Price of the game = {gamePrice}\n It's included plan = {planIncluded}")
 
 
+
+
