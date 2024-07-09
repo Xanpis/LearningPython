@@ -2,7 +2,7 @@
 
 num = int(input("Enter the number\n"))
 
-print(f"Antecessor { num -1 } Successor { num + 1} ")
+print(f"Antecessor { num -1 } Successor { num +1} ")
 
 
 # Media das notas
@@ -14,3 +14,4 @@ num4 = int(input("Enter the grade (4)\n"))
 num5 = num1 + num2 + num3 + num4
  
 print(f"Media { num5/4}")
+
