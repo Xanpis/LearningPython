@@ -1,12 +1,9 @@
 # Antecessor e Successor
-
 num = int(input("Enter the number\n"))
-
 print(f"Antecessor { num -1 } Successor { num +1} ")
 
 
-# Media das notas
- 
+# Media das notas 
 num1 = int(input("Enter the grade (1)\n"))
 num2 = int(input("Enter the grade (2)\n"))
 num3 = int(input("Enter the grade (3)\n"))

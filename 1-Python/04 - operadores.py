@@ -10,7 +10,6 @@ mod = num1 % num2
 exp = num1 ** num2
 
 # Arithmetic operator 
-
 print(f"Remainder of dividing {num1} by number {num2} is {mod}")
 print(f"power of number {num1} by number {num2} is {exp}")
 
