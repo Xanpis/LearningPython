@@ -1,6 +1,6 @@
 '''
 multi-line comment
-gameTeca 
+gameTheca 
 
 '''
 
