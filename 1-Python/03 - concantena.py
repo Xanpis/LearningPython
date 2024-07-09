@@ -15,23 +15,3 @@ print(f"\n Name of the game = {name}\n Year of the game = {yearLaunch}\n Price o
 
 
 
-  "files.autoSave": "afterDelay",
-  "workbench.settings.applyToAllProfiles": [],
-  "editor.tabSize": 3,
-  "editor.minimap.enabled": false,
-  "explorer.confirmDelete": false,
-  "git.autofetch": true,
-  "workbench.iconTheme": "vscode-icons",
-  "git.enableSmartCommit": true,
-  "editor.tabCompletion": "on",
-  "python.experiments.optInto": [],
-  "vsicons.associations.fileDefault.file": null,
-  "editor.formatOnSave": true,
-  "cSpell.showAutocompleteSuggestions": true,
-  "editor.parameterHints.enabled": false,
-  "cSpell.userWords": [
-    "jogo",
-    "mundo",
-    "Teca"
-  ],
-
