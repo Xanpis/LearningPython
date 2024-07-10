@@ -12,6 +12,7 @@ print(gameName.lower())
 
 # primeira letra em maiúsculo
 print(gameName.title())
+print (gameName.capitalize())
 
 # centralizando caractere,1 a quantidade de caractere, 2 o que vai ser preenchido  
 print(gameName.center(11,"-"))
