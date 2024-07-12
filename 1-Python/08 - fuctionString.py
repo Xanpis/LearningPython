@@ -4,7 +4,7 @@ description = """
    Fifa is a game development for Ea sports 
    you can ply online or not
 """
-# retornar letras maiúsculos
+# retornar letras maiúsculas
 print(gameName.upper()) 
 
 #retorna letras minusculas
@@ -14,7 +14,7 @@ print(gameName.lower())
 print(gameName.title())
 print (gameName.capitalize())
 
-# centralizando caractere,1 a quantidade de caractere, 2 o que vai ser preenchido  
+# centralizando caractere,11 quantidade de caractere, "-" com o que vai ser preenchido  
 print(gameName.center(11,"-"))
 
 # Encontrando e retornado a posição do caractere 
