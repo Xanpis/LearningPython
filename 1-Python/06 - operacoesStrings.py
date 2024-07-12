@@ -12,7 +12,7 @@ print(fullName)
 
 # Multiplicação de strings
 line = " = "
-print(line * 25 )
+print(25 * line )
 
 # Procurando palavras em textos
 print("Fifa" in description)

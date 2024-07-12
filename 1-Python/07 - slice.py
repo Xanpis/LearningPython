@@ -1,7 +1,7 @@
 
 gameName = "Fifa23"
 
-print(gameName[:7])
+print(gameName[:6])
 
 # buscando string pares
 print(gameName[::2])
