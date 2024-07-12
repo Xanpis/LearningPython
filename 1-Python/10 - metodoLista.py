@@ -1,27 +1,30 @@
-gameName = ["Resident evil 4", "Star wars Jedi survivor", 
+from hmac import new
+
+
+gameLista = ["Resident evil 4", "Star wars Jedi survivor", 
 "The Legend of Zelda", "Red dead 2", "Mario odyssey"]
 
 # Tamanho da lista
-print(len(gameName))
+print(len(gameLista))
 
 # Recuperar um índice de algo na lista 
-print(gameName.index("Star wars Jedi survivor"))
+print(gameLista.index("Star wars Jedi survivor"))
 
 # Adicionar item ao final da lista 
-gameName.append( "Fifa 23")
-print(gameName)
+gameLista.append( "Fifa 23")
+print(gameLista)
 
 # Ordenar a lista 
-gameName.sort()
-print(gameName)
+gameLista.sort()
+print(gameLista)
 
 # Copiar lista
-newGameName = gameName.copy()
+newGameLista = gameLista.copy()
 
 # Remover item da lista
-newGameName.remove("Fifa 23")
-print(newGameName)
+newGameLista.remove("Fifa 23")
+print(newGameLista)
 
 # Remover tudo da lista 
-newGameName.clear()
-print(newGameName)
+newGameLista.clear()
+print(newGameLista)
