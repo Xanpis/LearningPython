@@ -5,7 +5,6 @@ gameName = ["Resident evil 4", "Star wars Jedi survivor",
 # print(gameName[-2:])
 # print(line * 25)
 
-
 name = "teste12"
 
 print(gameName[::-2])
