@@ -1,6 +1,7 @@
 num1 = float(input('Digite um numero = '))
+operator = input('Digite uma das operações (- + * /) = ')
 num2 = float(input('Digite um numero = '))
-operator = input('Digite uma das operações (- + * /)')
+
 
 if operator == '-':
    result = num1 - num2
