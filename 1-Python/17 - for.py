@@ -1,15 +1,15 @@
 gameList = ['Fifa','God of war','Red Dead','Mario Odyssey']
 
 # Iteração com o for 
-for game in gameList :
-   print(game)
+for i in gameList :
+   print(i)
 print(30 * '=')
 
 # Break quando chega no valor determinado para 
-for game in gameList:
-   if game == 'Red Dead':
+for i in gameList:
+   if i == 'Red Dead':
       break
-   print(game)     
+   print(i)     
 print(30 * '=')
 
 # Continue chega até o valor especificado, pula e continua  
