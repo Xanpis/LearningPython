@@ -13,3 +13,4 @@ print(gamesSet)
 # Remove mas só um de cada vez 
 gamesSet.remove('true')
 print(gamesSet)
+
