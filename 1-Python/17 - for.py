@@ -24,7 +24,6 @@ name = input('Digite o nome do jogo = ')
 qtAvalia = int(input('Digite a quantidade de avaliação = '))
 
 soma = 0 
-
 for i in range(qtAvalia):
    nota = float(input('Digite a nota = '))
    soma += nota
