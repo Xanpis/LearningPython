@@ -14,6 +14,7 @@ elif operator == '*':
 
 elif operator == '/':
    result = num1 / num2
+   
 else:
    print('Não foi possível faze a operação ')
 
