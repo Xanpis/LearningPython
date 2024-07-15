@@ -1,4 +1,5 @@
 
+
 name = input("Enter the name of the game \n")
 yearLaunch = int(input("Enter the year of the game \n")) 
 gamePrice = float(input("Enter the price of the game \n"))
