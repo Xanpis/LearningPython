@@ -34,4 +34,3 @@ print(gameDict)
 # Removendo valores
 gameDict.pop('players') 
 print(gameDict)
-

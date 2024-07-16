@@ -11,3 +11,4 @@ print(gameName[:-2])
 
 # listaJogos = "Fifa23", "Star Wars", "The Legend of Zelda", "Red Dead 2"
 # print (lista) Jogos-1
+
