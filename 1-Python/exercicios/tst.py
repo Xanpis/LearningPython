@@ -12,9 +12,20 @@
 # # listaJogos = "Fifa23", "Star Wars", "The Legend of Zelda", "Red Dead 2"
 # # print (lista) Jogos-1
 
+
+
 def string_para_tuplas(s):
-    tuplas = tuple((letra) for letra in s)
-    print(tuplas[3])
+    tuplas = tuple((letra,) for letra in s)
+    CPTL =  s.upper()
+    for i in range(len(s)): 
+      for f in tuplas[i]: 
+         print(f)
+         if (f in CPTL): 
+            print('ok')
+  
 
 # Exemplo de uso:
 string_para_tuplas("exemplo")
+
+
+
