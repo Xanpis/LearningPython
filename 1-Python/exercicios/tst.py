@@ -14,15 +14,16 @@
 
 
 
-def string_para_tuplas(s):
-    tuplas = list((letra) for letra in s)
-    print(tuplas)
-    CPTL =  s.upper()
-    for i in range(len(s)): 
-      for f in tuplas[i]: 
-         print(f)
-         if (f in CPTL): 
-            print('ok')
+# def string_para_tuplas(s):
+#     tuplas = list(s)
+#     print(tuplas)
+#     CPTL =  s.upper()
+#     for i in range(len(s)): 
+#       for f in tuplas[i]: 
+#          print(f)
+#          if (f in CPTL): 
+#             print('ok')
   
-# Exemplo de uso:
-string_para_tuplas("exemplo")
+# # Exemplo de uso:
+# string_para_tuplas("exemplo")
+
