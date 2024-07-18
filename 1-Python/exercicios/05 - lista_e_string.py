@@ -13,7 +13,7 @@ def contarLetras(letter):
          minu += 1
    return (maiu,minu)
 
-enter = input('Contador de letras, maiúscula e minusculas \n Frase =  ')
+enter = input('Contador de letras, maiúscula e minusculas \n Digite a Frase =  ')
 contado = contarLetras(enter)
 print(f'Maiúsculas = {contado[0]}  Minusculas = {contado[1]}')
 print(70 * '=')
@@ -33,7 +33,7 @@ def parImpar(lista):
 enter = 1
 listaNumero = [] 
 while (enter != 0):
-   enter = int(input('Digite Os Números ou 0 para Sai = '))
+   enter = int(input('Digite Números Impares e Pares ou 0 Para Sai = '))
    if (enter != 0):
       listaNumero.append(enter)
 

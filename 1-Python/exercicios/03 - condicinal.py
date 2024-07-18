@@ -1,12 +1,12 @@
 
-# num1 = int(input('Digite a quantidade em km = '))
+num1 = int(input('Digite a quantidade em km = '))
 
-# if num1 <= 200:
-#    result = 0.5 * num1
-# else:
-#    result = 0.3 * num1
+if num1 <= 200:
+   result = 0.5 * num1
+else:
+   result = 0.3 * num1
 
-# print(f'O valor da sua viagem é R${result:.2f} ') 
+print(f'O valor da sua viagem é R${result:.2f} ') 
 
 salario = float(input('Qual seu salario para Aumento = '))
 
