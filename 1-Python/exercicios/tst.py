@@ -27,3 +27,26 @@
 # # Exemplo de uso:
 # string_para_tuplas("exemplo")
 
+
+# # Contando impar e par 
+# def parImpar(*lista):
+#    print(lista)
+#    par = []
+#    impar = []
+#    for priList in lista:
+#       for segList in priList:
+#          if (segList % 2 == 0):
+#             par.append(segList)
+#          else:
+#             impar.append(segList)       
+#    return(par,impar)
+
+# enter = 1
+# listaNumero = [] 
+# while (enter != 0):
+#    enter = int(input('Digite Os Números ou 0 para Sai = '))
+#    if (enter != 0):
+#       listaNumero.append(enter)
+
+# listaParImpar = parImpar(listaNumero) 
+# print(f'\nNúmeros pares = {listaParImpar[0]} Números Impares = {listaParImpar[1]}')
