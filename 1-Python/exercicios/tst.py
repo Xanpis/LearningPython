@@ -24,7 +24,6 @@ def string_para_tuplas(s):
          if (f in CPTL): 
             print('ok')
   
-
 # Exemplo de uso:
 string_para_tuplas("exemplo")
 
