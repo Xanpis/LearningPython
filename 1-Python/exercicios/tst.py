@@ -26,6 +26,3 @@ def string_para_tuplas(s):
   
 # Exemplo de uso:
 string_para_tuplas("exemplo")
-
-
-
