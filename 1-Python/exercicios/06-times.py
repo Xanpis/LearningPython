@@ -18,6 +18,7 @@ def shows():
 def adicionarTime():
    nome = input("Nome do time = ")
    dicionario[nome] = []
+   print("Adicionado!!!! ")
    # print(dicionario)
 
 
@@ -27,9 +28,10 @@ def adicionarJogador():
    if nomeTime in dicionario.keys():
       op = 's'
       while(op != 'n'):
-         nome = input("Nome do jogador ou n para sair = ")
+         nome = input("Nome do jogador ou (n) para sair = ")
          if nome != 'n': 
             dicionario[nomeTime].append(nome)
+            print('Jogador adicionado!!!!')
             # print(dicionario)
          else:
             op = 'n'   
@@ -67,10 +69,11 @@ def removerTime():
 def  removerJogador():
    nomeTime = input('Nome do time para remover jogador = ')
    if nomeTime in dicionario.keys():
-      nomeJog = input('Digite o nome do jogador para ser removido ')
+      nomeJog = input('Digite o nome do jogador para ser removido = ')
       for i in dicionario[nomeTime]:
          if nomeJog == i:
             dicionario[nomeTime].remove(i)
+            print('Removido!!!')
 
 
 # Menu
