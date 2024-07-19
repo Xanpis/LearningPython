@@ -29,7 +29,6 @@ def adicionarJogador():
       nome = input("Nome do jogador = ")
       dicionario[nomeTime].append(nome)
       print(dicionario)
-
    else:
       print('Não temos este time na lista')
 
@@ -37,8 +36,7 @@ def adicionarJogador():
 def listarTimes():
    for i in dicionario.keys():
       print(f'\nTime = {i}')
-   else:
-      print('Não temos este time na lista')
+  
 
 # Listar Jogadores
 def ListarJogadores():
@@ -58,6 +56,14 @@ def removerTime():
    else:
       print('O Time não existente')   
 
+# Remover jogador de um time
+def  removerJogador():
+   nomeTime = input('Nome do time para remover jogador = ')
+   if nomeTime in dicionario.keys():
+      nomeJog = input('Digite o nome do jogador para ser removido ')
+      for i in dicionario[nomeTime]:
+         if nomeJog == i:
+            dicionario[nomeTime].remove(i)
 
 # Menu
 op = 9
@@ -74,6 +80,8 @@ while(op != 0):
       ListarJogadores()
    elif op == 5:
       removerTime()
+   elif op == 6:
+      removerJogador()
       
 
    
