@@ -23,7 +23,6 @@ def adicionarTime():
 
 # Adicionar jogador em um time
 def adicionarJogador():
-
    nomeTime = input('Nome do time para add jogador = ')
    if nomeTime in dicionario.keys():
       nome = input("Nome do jogador = ")
