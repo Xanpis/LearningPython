@@ -1,5 +1,5 @@
 # Variáveis  globais 
-dicionario = {'Times':{'Jogadores':[]}} 
+dicionario = {} 
 
 # Texto do menu
 def shows():
@@ -14,7 +14,6 @@ def shows():
    (6) Remover jogador de um time    
    ''' )
 
-i = 0 
 
 # Adicionando um time
 def adicionarTime():
