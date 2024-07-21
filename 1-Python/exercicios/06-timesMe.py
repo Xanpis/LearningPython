@@ -20,24 +20,28 @@ def mostrarTime():
    for ind ,(chave, valor) in enumerate(dicionario.items(), start = 1):
       # #  Imprimir com nome de jogadores 
       #   print(f'{ind}. {chave} = Jogadores = {join(valor['Jogadores'])} ')
-         print(f'{ind}. {chave} = Jogadores = {len(valor['Jogadores'])} ')
+         print(f'{ind}. {chave} : Jogadores = {len(valor['Jogadores'])} ')
         
 # Adicionando um time
 def adicionarTime():
    nome = input("Nome do time = ")
    dicionario[nome] = {'Time':nome,'Jogadores':[]}
-   # print(dicionario)
 
 # Adicionar jogador em um time
 def adicionarJogador():
    mostrarTime()
-   numTime = int(input('Digite a posição do time  = '))
+   numTime = int(input('Numero do Time  = '))
    nomeTime = list(dicionario.keys())[numTime -1 ]
    if nomeTime in dicionario.keys():
-      nome = input('Digite o nome dos jogadores = ')
-      dicionario[nomeTime]['Jogadores'].append(nome)
+      op = 's'
+      while (op != 'n'): 
+         nome = input('Digite o nome do jogador ou (n) para sair  = ')
+         if nome != 'n':
+            dicionario[nomeTime]['Jogadores'].append(nome)
+         else:  
+            op = 'n'
    else :
-      print('noo tem')   
+      print('Erro time')   
 
 
 
