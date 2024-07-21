@@ -18,6 +18,7 @@ def shows():
 # Adicionando um time
 def adicionarTime():
    nome = input("Nome do time = ")
+   
 
    print(dicionario)
 
