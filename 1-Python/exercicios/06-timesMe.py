@@ -15,14 +15,36 @@ def shows():
    ''' )
 
 
+# Mostra Time
+def mostrarTime():
+   for ind ,(chave, valor) in enumerate(dicionario.items(), start = 1):
+      # #  Imprimir com nome de jogadores 
+      #   print(f'{ind}. {chave} = Jogadores = {join(valor['Jogadores'])} ')
+         print(f'{ind}. {chave} = Jogadores = {len(valor['Jogadores'])} ')
+        
 # Adicionando um time
 def adicionarTime():
    nome = input("Nome do time = ")
-   
+   dicionario[nome] = {'Time':nome,'Jogadores':[]}
+   # print(dicionario)
 
-   print(dicionario)
+# Adicionar jogador em um time
+def adicionarJogador():
+   mostrarTime()
+   numTime = int(input('Digite a posição do time  = '))
+   nomeTime = list(dicionario.keys())[numTime -1 ]
+   if nomeTime in dicionario.keys():
+      nome = input('Digite o nome dos jogadores = ')
+      dicionario[nomeTime]['Jogadores'].append(nome)
+   else :
+      print('noo tem')   
 
-adicionarTime()
-adicionarTime()
-adicionarTime()
-print(dicionario)
+
+
+adicionarTime()  
+adicionarTime()  
+adicionarJogador()
+adicionarJogador()
+mostrarTime()
+
+  
