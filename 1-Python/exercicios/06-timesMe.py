@@ -21,11 +21,13 @@ def mostrarTime():
       # #  Imprimir com nome de jogadores 
       #   print(f'{ind}. {chave} = Jogadores = {join(valor['Jogadores'])} ')
          print(f'{ind}. {chave} : Jogadores = {len(valor['Jogadores'])} ')
+
         
 # Adicionando um time
 def adicionarTime():
    nome = input("Nome do time = ")
    dicionario[nome] = {'Time':nome,'Jogadores':[]}
+
 
 # Adicionar jogador em um time
 def adicionarJogador():
