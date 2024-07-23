@@ -57,7 +57,7 @@ while not done:
    print('7.Sair ')
   
    choice = int(input(">"))
-   # O pass é parra não colocar o resto do código 
+   # O (pass) é parra esperar o resto do código 
    if choice == 1:
       addTime()
    elif choice == 2:
