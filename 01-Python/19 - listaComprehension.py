@@ -5,7 +5,6 @@
 
 # Mesmo que o for mas com comprehension
 
-
 preList = [i for i in range(10) if i < 4 ]
 # print(preList)
 
