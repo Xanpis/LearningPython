@@ -3,7 +3,7 @@
 #    if (i < 4 ):
 #       print(i)
 
-# Mesmo que o for mas com comprehension
+# Mesmo que o (for) mas com comprehension
 
 preList = [i for i in range(10) if i < 4 ]
 # print(preList)
