@@ -1,3 +1,4 @@
+import os
 # Variáveis  globais 
 dicionario = {} 
 
@@ -5,24 +6,26 @@ dicionario = {}
 def adicionarTime():
    nome = input("Nome do time = ")
    dicionario[nome] = {'Time':nome,'Jogadores':[]}
-
+   
+      
 
 # Adicionar jogadores
 def adicionarJogador():
-   numTime = int(input('Numero do Time para adicionar jogador = '))
-   nomeTime = list(dicionario.keys())[numTime -1 ]
-   import os
-   os.system('shutdown /s /t 0')
-   if nomeTime in dicionario.keys():
-      op = 's'
-      while (op != 'n'): 
-         nome = input('Digite o nome do jogador ou (n) para sair  = ')
-         if nome != 'n':
-            dicionario[nomeTime]['Jogadores'].append(nome)
-         else:  
-            op = 'n'
-   else :
-      print('Erro time')   
+   try:
+      numTime = int(input('Numero do Time para adicionar jogador = '))
+      nomeTime = list(dicionario.keys())[numTime -1 ]
+      if nomeTime in dicionario.keys():
+         op = 's'
+         while (op != 'n'): 
+            nome = input('Digite o nome do jogador ou (n) para sair  = ')
+            if nome != 'n':
+               dicionario[nomeTime]['Jogadores'].append(nome)
+            else:  
+               op = 'n'
+      else :
+         print('Erro time')   
+   except:
+      print(" Digite um numero novamente ")      
 
 
 # Mostra Time
@@ -51,8 +54,6 @@ def rmvTime() :
      nomeTime = list(dicionario.keys())[numTime -1 ]
      del dicionario[nomeTime]
      print('Time removido!!!')
-     import os
-     os.system('shutdown /s /t 0')
    else:
       print('erro')
 
@@ -89,28 +90,38 @@ def shows():
 op = 9
 while(op != 0):
    shows()
-   op = int(input('Digite um dos números da Opção = '))
+   try:
+      op = int(input('Digite um dos números da Opção = '))
+   except:
+      print("Digite um Numero valido")   
 
    if op == 1:
-    adicionarTime()
+      os.system('cls' if os.name == 'nt' else 'clear')
+      adicionarTime()
+    
 
    elif op == 2:
-    mostrarTime()
-    adicionarJogador()
+      os.system('cls' if os.name == 'nt' else 'clear')
+      mostrarTime()
+      adicionarJogador()
 
    elif op == 3:
+      os.system('cls' if os.name == 'nt' else 'clear')
       mostrarTime()
 
    elif op == 4:
+      os.system('cls' if os.name == 'nt' else 'clear')
       mostrarTime()
       num = int(input('Digite o numero do time para mostrar jogadores = '))
       mostrarJogador(num)
 
    elif op == 5:
+      os.system('cls' if os.name == 'nt' else 'clear')
       mostrarTime()
       rmvTime()
 
    elif op == 6:
+      os.system('cls' if os.name == 'nt' else 'clear')
       mostrarTime()
       rmvJogador()
       
