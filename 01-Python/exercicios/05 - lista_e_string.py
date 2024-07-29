@@ -13,10 +13,12 @@ def contarLetras(letter):
          minu += 1
    return (maiu,minu)
 
+
 enter = input('Contador de letras, maiúscula e minusculas \n Digite a Frase =  ')
 contado = contarLetras(enter)
 print(f'Maiúsculas = {contado[0]}  Minusculas = {contado[1]}')
 print(70 * '=')
+
 
 # Contando impar e par 
 def parImpar(lista):
