@@ -8,7 +8,6 @@ def adicionarTime():
    dicionario[nome] = {'Time':nome,'Jogadores':[]}
    
       
-
 # Adicionar jogadores
 def adicionarJogador():
    try:
