@@ -32,6 +32,7 @@ def parImpar(lista):
          impar.append(i)       
    return(par,impar)
 
+
 enter = 1
 listaNumero = [] 
 while (enter != 0):
