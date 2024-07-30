@@ -40,6 +40,7 @@ while (enter != 0):
    if (enter != 0):
       listaNumero.append(enter)
 
+
 listaParImpar = parImpar(listaNumero) 
 print(f'\nNúmeros pares = {listaParImpar[0]} Números Impares = {listaParImpar[1]}')
 
