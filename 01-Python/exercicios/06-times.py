@@ -1,6 +1,7 @@
 # Variáveis  globais 
 dicionario = {} 
 
+
 # Texto do menu
 def shows():
    print(''' 
