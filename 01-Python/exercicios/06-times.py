@@ -14,6 +14,7 @@ def shows():
    (6) Remover jogador de um time    
    ''' )
 
+
 # Adicionando um time
 def adicionarTime():
    nome = input("Nome do time = ")
