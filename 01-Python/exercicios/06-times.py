@@ -1,3 +1,4 @@
+
 # Variáveis  globais 
 dicionario = {} 
 
