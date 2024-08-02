@@ -5,6 +5,7 @@ def nu():
     print(f'Números { ite} e {flo}')
 
 
+
 # cap = True
 # while(cap == True):
 #     b = ''
