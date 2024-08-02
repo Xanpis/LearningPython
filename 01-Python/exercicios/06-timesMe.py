@@ -41,7 +41,6 @@ def mostrarJogador(num):
       nomeTime = list(dicionario.keys())[num -1]
       for i,jo in enumerate(dicionario[nomeTime]['Jogadores'], start = 1):
          print(f'{i}:{jo}')
-
    else:
       print('erro')
         

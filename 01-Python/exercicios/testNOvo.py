@@ -15,7 +15,9 @@ gameDict = {
 
 
 nom = gameDict.items()
+i = 0 
 for no,na in gameDict.items():
-    print(f'Chave = {no} Valor = {na}')
+    i
+    print(f'Chave = {no} Valor = {i}')
 
 print(nom)
