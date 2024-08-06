@@ -10,21 +10,19 @@ def adicionarTime():
       
 # Adicionar jogadores
 def adicionarJogador():
-   try:
-      numTime = int(input('Numero do Time para adicionar jogador = '))
-      nomeTime = list(dicionario.keys())[numTime -1 ]
-      if nomeTime in dicionario.keys():
-         op = 's'
-         while (op != 'n'): 
-            nome = input('Digite o nome do jogador ou (n) para sair  = ')
-            if nome != 'n':
-               dicionario[nomeTime]['Jogadores'].append(nome)
-            else:  
-               op = 'n'
-      else :
-         print('Erro time')   
-   except:
-      print(" Digite um numero novamente ")      
+   numTime = int(input('Numero do Time para adicionar jogador = '))
+   nomeTime = list(dicionario.keys())[numTime -1 ]
+   if nomeTime in dicionario.keys():
+      op = 's'
+      while (op != 'n'): 
+         nome = input('Digite o nome do jogador ou (n) para sair  = ')
+         if nome != 'n':
+            dicionario[nomeTime]['Jogadores'].append(nome)
+         else:  
+            op = 'n'
+   else :
+      print('Erro time')   
+    
 
 
 # Mostra Time
