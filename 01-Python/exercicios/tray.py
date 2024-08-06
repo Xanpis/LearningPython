@@ -17,6 +17,7 @@ def nu():
 #     if(b!= None):
 #         cap == False
 
+re = 3
 
 cap = True
 while cap:
