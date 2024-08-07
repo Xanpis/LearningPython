@@ -17,10 +17,10 @@ def nu():
 #     if(b!= None):
 #         cap == False
 
-cap = True
-while cap:
+cap = False
+while not cap:
     try:
         nu()  # Chama a função que pode lançar uma exceção
-        cap = False  # Sai do loop se `nu()` for executado sem erros
+        cap = True  # Sai do loop se `nu()` for executado sem erros
     except Exception as ero:
         print(f'Erro: Valor inválido - {str(ero)}')
