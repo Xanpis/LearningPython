@@ -28,7 +28,6 @@ for f in phrase:
    else:
       print('Nao Corresponde = ',f)
 
-
 # verificando se tem no final de uma string
 find = r'!$'
 phrase2 = 'vagabond!'
