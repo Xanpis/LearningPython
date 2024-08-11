@@ -19,6 +19,7 @@ print(json.dumps(pessoa_dict, indent=4, sort_keys=True))
 with open('pessoa.txt','w') as file:
    json.dump(pessoa_dict,file)
 
+
 # Abrindo aquivo json
 with open('iris.json', 'r') as f:
    data = json.load(f)

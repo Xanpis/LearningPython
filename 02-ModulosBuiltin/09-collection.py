@@ -23,4 +23,12 @@ a = sorted(students.items(),key=itemgetter(0))
 print(students)
 print(a)
 
-# Utilizando filas ambas as extremidades
+# Adicionado na  filas ambas as extremidades
+deq = deque([20,34,40,50])
+deq.appendleft(10)
+deq.append(70)
+print(deq)
+deq.popleft()
+deq.popleft()
+deq.pop()
+print(deq)
