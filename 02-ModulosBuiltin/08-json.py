@@ -15,6 +15,7 @@ print(type(pessoa_json))
 # Imprimindo no Formato json
 print(json.dumps(pessoa_dict, indent=4, sort_keys=True))
 
+
 # Salvando txt 
 with open('pessoa.txt','w') as file:
    json.dump(pessoa_dict,file)
