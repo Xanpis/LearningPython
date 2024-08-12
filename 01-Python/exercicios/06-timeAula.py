@@ -45,6 +45,8 @@ def adicionarJogador():
       print('jogador adicionado !!!')
    else:
       print('Nome do time esta invalido')
+
+      
 while not done:
    print('Q que deseja fazer')
 
