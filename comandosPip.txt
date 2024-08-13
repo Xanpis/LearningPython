@@ -1,0 +1,5 @@
+listar com veações == pip freeze 
+
+salvando arquivo txt == pip freeze -l > requirements.txt
+
+instalando todos o arquivo da versão txt == pip freeze -r > requirements.txt
