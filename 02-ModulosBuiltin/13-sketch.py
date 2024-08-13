@@ -1,1 +1,3 @@
-from sketchpy impot
+from sketchpy import library
+
+objict =  
